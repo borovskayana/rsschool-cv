@@ -109,6 +109,6 @@ function Clear() {
 ```
 
 <h2>Contact me:</h2>
-<a href="https://www.linkedin.com/in/yana-borovska-615b771bb/">Linkedi</a> 
+<a href="https://www.linkedin.com/in/yana-borovska-615b771bb/">Linkedin</a> 
 <br>
 <p>E-mail: yanaboro123@gmail.com</p>
