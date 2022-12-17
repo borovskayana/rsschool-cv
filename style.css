@@ -1,1 +1,170 @@
+body {
+  
+    height: 100%;
+    margin: 0;
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    background-color: whitesmoke;
+    border: gray;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+p {
+font-size: 1.1rem;
+line-height: 2;
+text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(91, 91, 89);
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(91, 91, 89);
+    padding: 4rem;
+}
+
+#name h2 {
+    padding: 0;
+}
+
+
+p {
+    color: rgb(40, 39, 39);
+    padding: 2rem;
+}
+
+ul {
+    color: rgb(40, 39, 39);
+    padding: 2rem;
+}
+
+li {
+    color:#214133;
+    list-style-type: none;
+    font-size: 1.1rem;
+    line-height: 2;
+   
+}
+
+li::before {
+    content: "✓";
+    color: rgb(179, 25, 25); 
+    padding: 2rem;
+  
+}
+
+#skills li{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem; 
+}
+
+#contact {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#contact li::before {
+    content: "";
+
+    padding: 0rem;
+    font-size: 1rem;  
+}
+
+footer {
+    background-color: #f16092;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8; 
+}
+
+#footer {
+    margin-top: 6rem;
+}
+
+#footer p {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    color: black;
+    font-size: 1.1rem;
+}
+
+#footer a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#code {
+    font-size: 0.8rem;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#top-left {
+    position: absolute;
+    top: 16rem;
+    right: 15rem;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    font-weight: bold; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container img {
+    opacity: 0.4;
+    filter: brightness(60%);
+}
+
+h3 {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    color: rgb(91, 91, 89);
+}
+
+#cont-code {
+    background-color: white;
+    opacity: 0.8;
+    filter: brightness(80%);
+}
+
+#education  {
+font-weight: bold;
+}
+
+#educations {
+padding-left: 6rem;
+padding-right: 4rem;
+ }
+
+ .navbar-nav a {
+margin-right: 2rem;
+padding: 10px 20px;
+font-size: 1.1rem;
+font-weight: bold;
+
+ }
+
 
